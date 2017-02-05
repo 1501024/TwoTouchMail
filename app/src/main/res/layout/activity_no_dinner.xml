@@ -9,4 +9,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jp.ac.asojuku.st.twotouchmail.NoDinnerActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="@string/botton_no_dinner"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botton_send"
+        android:id="@+id/button"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
